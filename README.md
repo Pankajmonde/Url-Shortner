@@ -2,6 +2,10 @@
 
 A production-ready Spring Boot microservice for shortening URLs. Built with clean layered architecture, deployed on Render.
 
+**🔗 Live Demo:** https://url-shortner-l0q1.onrender.com
+
+> Free tier note: the service sleeps after 15 minutes of inactivity. The first request after sleeping takes 30–60 seconds to wake up.
+
 ---
 
 ## Features
