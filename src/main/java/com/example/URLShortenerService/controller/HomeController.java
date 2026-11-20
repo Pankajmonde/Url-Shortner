@@ -69,7 +69,7 @@ public class HomeController {
     /**
      * Redirects to the original URL based on the short code.
      */
-    @GetMapping("/{shortCode}")
+    @GetMapping("/{shortCode:[a-zA-Z0-9]{6}}")
     public String redirectToOriginalUrl(@PathVariable String shortCode) {
         Optional<String> originalUrl = urlShortenerService.getOriginalUrl(shortCode);
         
